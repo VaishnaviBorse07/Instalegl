@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Uploaded documents
+# We ignore everything inside uploads to prevent user data from leaking
+uploads/*
+!uploads/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

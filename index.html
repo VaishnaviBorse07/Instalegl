@@ -1,0 +1,3381 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Instalegl Mumbai's On-Demand Legal Services Platform</title>
+    <meta name="description"
+        content="Book Bar Council-verified advocates in Mumbai for court representation, bail, drafting, trademark, and more. Fixed fees. Confirmed in 30 minutes.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://instalegl.in/">
+    <meta property="og:title" content="Instalegl â€” Mumbai's On-Demand Legal Services Platform">
+    <meta property="og:description"
+        content="Book Bar Council-verified advocates in Mumbai for court representation, bail, drafting, trademark, and more. Fixed fees. Confirmed in 30 minutes.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Instalegl">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <meta property="og:image" content="https://instalegl.in/og-image.jpg">
+    <meta name="twitter:image" content="https://instalegl.in/og-image.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        :root {
+            --bg: #0a0d18;
+            --bg2: #10142a;
+            --card: #131929;
+            --card2: #1a2038;
+            --em: #046C4E;
+            --em2: #059669;
+            --em3: #10B981;
+            --em4: #34d399;
+            --text: #f4f1ec;
+            --sub: #9ba5c0;
+            --bdr: rgba(255, 255, 255, 0.07);
+            --r: 14px;
+            --r2: 20px;
+            --r3: 28px;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0a0d18;
+            color: #f4f1ec;
+            overflow-x: hidden;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #fff;
+            line-height: 1.2;
+        }
+
+        p {
+            color: #9ba5c0;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #10B981;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #34d399;
+        }
+
+        strong,
+        b {
+            color: #e8e4df;
+            font-weight: 600;
+        }
+
+        ::selection {
+            background: rgba(4, 108, 78, .3);
+            color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0d18;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #1e2840;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #046C4E;
+        }
+
+        /* â”€â”€ Navigation â”€â”€ */
+        nav.site-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(10, 13, 24, .96);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, .06);
+            height: 64px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-wrap {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 19px;
+            color: #fff;
+            letter-spacing: -.03em;
+            flex-shrink: 0;
+        }
+
+        .nav-logo-mark {
+            width: 34px;
+            height: 34px;
+            border-radius: 9px;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-logo-mark svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            list-style: none;
+            margin-left: 32px;
+            flex: 1;
+        }
+
+        .nav-links>li>a {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, .55);
+            text-decoration: none;
+            padding: 7px 9px;
+            border-radius: 8px;
+            transition: all .2s;
+            white-space: nowrap;
+        }
+
+        .nav-links>li>a:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, .06);
+        }
+
+        .nav-links>li>a.active {
+            color: #10B981;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        .btn-ghost {
+            font-size: 13px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .65);
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 9px;
+            padding: 8px 18px;
+            text-decoration: none;
+            transition: all .2s;
+            white-space: nowrap;
+        }
+
+        .btn-ghost:hover {
+            color: #fff;
+            border-color: rgba(255, 255, 255, .3);
+        }
+
+        .btn-em {
+            font-size: 13px;
+            font-weight: 700;
+            color: #fff;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            border-radius: 9px;
+            padding: 8px 20px;
+            text-decoration: none;
+            transition: all .2s;
+            white-space: nowrap;
+            border: none;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            box-shadow: 0 4px 16px rgba(4, 108, 78, .3);
+        }
+
+        .btn-em:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 24px rgba(4, 108, 78, .45);
+            color: #fff;
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 8px;
+            padding: 7px 10px;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 18px;
+            height: 2px;
+            background: #10B981;
+            border-radius: 2px;
+        }
+
+        .mobile-nav {
+            display: none;
+            flex-direction: column;
+            position: fixed;
+            top: 64px;
+            left: 0;
+            right: 0;
+            background: #0a0d18;
+            border-bottom: 1px solid rgba(255, 255, 255, .06);
+            padding: 16px 24px 24px;
+            z-index: 999;
+            gap: 2px;
+        }
+
+        .mobile-nav.open {
+            display: flex;
+        }
+
+        .mobile-nav a {
+            padding: 11px 14px;
+            border-radius: 9px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, .7);
+            text-decoration: none;
+            transition: all .2s;
+        }
+
+        .mobile-nav a:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, .06);
+        }
+
+        .mobile-nav .mob-sep {
+            height: 1px;
+            background: rgba(255, 255, 255, .06);
+            margin: 8px 0;
+        }
+
+        /* â”€â”€ Buttons â”€â”€ */
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+            border-radius: var(--r);
+            padding: 14px 28px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            text-decoration: none;
+            transition: all .25s;
+            box-shadow: 0 8px 24px rgba(4, 108, 78, .35);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(4, 108, 78, .5);
+            color: #fff;
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, .07);
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: var(--r);
+            padding: 14px 28px;
+            border: 1px solid rgba(255, 255, 255, .14);
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            text-decoration: none;
+            transition: all .25s;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, .12);
+            color: #fff;
+        }
+
+        /* â”€â”€ Section system â”€â”€ */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section.alt {
+            background: #0d1120;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        .container-sm {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(4, 108, 78, .12);
+            border: 1px solid rgba(4, 108, 78, .28);
+            border-radius: 100px;
+            padding: 5px 14px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 3.5vw, 44px);
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -.02em;
+            line-height: 1.15;
+            margin-bottom: 14px;
+        }
+
+        .section-sub {
+            font-size: 15px;
+            color: #9ba5c0;
+            line-height: 1.8;
+            max-width: 520px;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .centered .section-sub {
+            margin: 0 auto;
+        }
+
+        /* â”€â”€ Cards â”€â”€ */
+        .card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: var(--r2);
+            padding: 28px 26px;
+            transition: all .3s;
+        }
+
+        .card:hover {
+            border-color: rgba(4, 108, 78, .3);
+            transform: translateY(-3px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .4);
+        }
+
+        /* â”€â”€ Tag â”€â”€ */
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(4, 108, 78, .1);
+            border: 1px solid rgba(4, 108, 78, .25);
+            border-radius: 6px;
+            padding: 3px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #10B981;
+        }
+
+        /* â”€â”€ Compliance bar â”€â”€ */
+        .compliance-bar a:hover {
+            color: #10B981;
+        }
+
+        /* â”€â”€ Cookie banner â”€â”€ */
+        #ck {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: #0e1526;
+            border-top: 2px solid rgba(4, 108, 78, .4);
+            padding: 14px 36px;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            box-shadow: 0 -8px 40px rgba(0, 0, 0, .7);
+        }
+
+        #ck p {
+            flex: 1;
+            min-width: 220px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, .6);
+            margin: 0;
+        }
+
+        #ck a {
+            color: #10B981;
+        }
+
+        .ck-btns {
+            display: flex;
+            gap: 10px;
+        }
+
+        #ck-ess {
+            background: rgba(255, 255, 255, .07);
+            border: 1px solid rgba(255, 255, 255, .14);
+            color: rgba(255, 255, 255, .7);
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        #ck-all {
+            background: linear-gradient(135deg, #046C4E, #059669);
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            padding: 8px 18px;
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* â”€â”€ WhatsApp FAB â”€â”€ */
+        .wa-fab {
+            position: fixed;
+            bottom: 90px;
+            right: 24px;
+            z-index: 998;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, .4);
+            text-decoration: none;
+            transition: all .25s;
+            animation: waPulse 3s ease-in-out infinite;
+        }
+
+        .wa-fab:hover {
+            transform: scale(1.1);
+        }
+
+        .wa-fab svg {
+            width: 26px;
+            height: 26px;
+            fill: #fff;
+        }
+
+        @keyframes waPulse {
+
+            0%,
+            100% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, .4), 0 0 0 0 rgba(37, 211, 102, .3)
+            }
+
+            50% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, .4), 0 0 0 10px rgba(37, 211, 102, 0)
+            }
+        }
+
+        /* â”€â”€ Page hero (sub-pages) â”€â”€ */
+        .page-hero {
+            padding: 110px 0 64px;
+            background: linear-gradient(155deg, #0a0d18 0%, #0f1728 50%, #0a0d18 100%);
+            border-bottom: 1px solid rgba(255, 255, 255, .05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -120px;
+            right: -80px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(4, 108, 78, .1) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .page-hero-inner {
+            position: relative;
+            z-index: 1;
+        }
+
+        .page-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(4, 108, 78, .12);
+            border: 1px solid rgba(4, 108, 78, .3);
+            border-radius: 100px;
+            padding: 5px 14px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .page-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4.5vw, 52px);
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -.02em;
+            line-height: 1.1;
+            margin-bottom: 14px;
+        }
+
+        .page-title em {
+            color: #10B981;
+            font-style: italic;
+        }
+
+        .page-sub {
+            font-size: 15px;
+            color: #9ba5c0;
+            line-height: 1.8;
+            max-width: 560px;
+            margin-bottom: 16px;
+        }
+
+        .page-meta {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .page-meta span {
+            font-size: 12px;
+            color: #9ba5c0;
+            font-weight: 500;
+        }
+
+        /* â”€â”€ Content sections â”€â”€ */
+        .content {
+            padding: 72px 0 100px;
+        }
+
+        .prose {
+            max-width: 820px;
+        }
+
+        .prose h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 2.5vw, 28px);
+            font-weight: 700;
+            color: #fff;
+            margin: 48px 0 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(4, 108, 78, .18);
+        }
+
+        .prose h2:first-child {
+            margin-top: 0;
+        }
+
+        .prose h3 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #e8e4df;
+            margin: 24px 0 10px;
+        }
+
+        .prose p {
+            font-size: 14px;
+            color: #9ba5c0;
+            line-height: 1.9;
+            margin-bottom: 14px;
+        }
+
+        .prose p:last-child {
+            margin-bottom: 0;
+        }
+
+        .prose ul,
+        .prose ol {
+            margin: 0 0 16px 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .prose li {
+            font-size: 14px;
+            color: #9ba5c0;
+            line-height: 1.8;
+        }
+
+        .prose li::marker {
+            color: #10B981;
+        }
+
+        .prose a {
+            color: #10B981;
+        }
+
+        .prose a:hover {
+            color: #34d399;
+            text-decoration: underline;
+        }
+
+        .prose strong {
+            color: #e8e4df;
+        }
+
+        /* info boxes */
+        .info-box {
+            background: rgba(4, 108, 78, .06);
+            border: 1px solid rgba(4, 108, 78, .18);
+            border-left: 3px solid #046C4E;
+            border-radius: 0 12px 12px 0;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        .info-box p {
+            margin: 0;
+            color: #a8d5bf;
+            font-size: 13.5px;
+            line-height: 1.8;
+        }
+
+        .warn-box {
+            background: rgba(239, 68, 68, .05);
+            border: 1px solid rgba(239, 68, 68, .15);
+            border-left: 3px solid #ef4444;
+            border-radius: 0 12px 12px 0;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        .warn-box p {
+            margin: 0;
+            color: #fca5a5;
+            font-size: 13.5px;
+            line-height: 1.8;
+        }
+
+        /* info grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .info-card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 12px;
+            padding: 18px 20px;
+        }
+
+        .info-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .info-val {
+            font-size: 13px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.5;
+        }
+
+        .info-val a {
+            color: #10B981;
+            text-decoration: none;
+        }
+
+        .info-val a:hover {
+            text-decoration: underline;
+        }
+
+        /* steps */
+        .steps-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin: 24px 0;
+        }
+
+        .step-item {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .06);
+            border-radius: 14px;
+            padding: 18px 20px;
+        }
+
+        .step-num {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 800;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .step-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .step-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+
+        .data-table th {
+            background: rgba(4, 108, 78, .1);
+            color: #10B981;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid rgba(4, 108, 78, .22);
+        }
+
+        .data-table td {
+            padding: 12px 14px;
+            color: #9ba5c0;
+            border-bottom: 1px solid rgba(255, 255, 255, .05);
+        }
+
+        .data-table tr:hover td {
+            background: rgba(255, 255, 255, .02);
+        }
+
+        .green {
+            color: #4ade80;
+            font-weight: 700
+        }
+
+        .amber {
+            color: #10B981;
+            font-weight: 700
+        }
+
+        .red {
+            color: #f87171;
+            font-weight: 700
+        }
+
+        /* TOC */
+        .toc {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: var(--r2);
+            padding: 24px 28px;
+            margin-bottom: 48px;
+        }
+
+        .toc-hd {
+            font-size: 11px;
+            font-weight: 700;
+            color: #9ba5c0;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        .toc-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px 36px;
+        }
+
+        .toc-list li {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .toc-list li span {
+            font-size: 11px;
+            font-weight: 700;
+            color: #10B981;
+            min-width: 20px;
+        }
+
+        .toc-list a {
+            font-size: 13px;
+            color: #9ba5c0;
+            text-decoration: none;
+            transition: color .2s;
+        }
+
+        .toc-list a:hover {
+            color: #fff;
+        }
+
+        /* timeline (for bar-council verification) */
+        .timeline {
+            position: relative;
+            margin: 28px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #046C4E, rgba(4, 108, 78, .1));
+            border-radius: 2px;
+        }
+
+        .tl-step {
+            display: flex;
+            gap: 18px;
+            align-items: flex-start;
+            margin-bottom: 24px;
+        }
+
+        .tl-num {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 800;
+            color: #fff;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 0 0 4px #0a0d18;
+        }
+
+        .tl-body {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 14px;
+            padding: 18px 22px;
+            flex: 1;
+        }
+
+        .tl-tag {
+            display: inline-flex;
+            font-size: 10px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            background: rgba(4, 108, 78, .12);
+            border: 1px solid rgba(4, 108, 78, .25);
+            border-radius: 100px;
+            padding: 3px 10px;
+            margin-bottom: 7px;
+        }
+
+        .tl-title {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .tl-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .tl-sla {
+            font-size: 11px;
+            font-weight: 700;
+            color: #4ade80;
+            margin-top: 6px;
+        }
+
+        /* â”€â”€ Footer â”€â”€ */
+        footer.site-footer {
+            background: #060810;
+            border-top: 1px solid rgba(255, 255, 255, .05);
+            padding: 60px 0 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 56px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid rgba(255, 255, 255, .05);
+        }
+
+        .footer-desc {
+            font-size: 13px;
+            color: rgba(155, 165, 192, .55);
+            line-height: 1.8;
+            margin-top: 16px;
+            max-width: 240px;
+        }
+
+        .footer-col-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .3);
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+
+        .footer-col ul a {
+            font-size: 13px;
+            color: rgba(155, 165, 192, .55);
+            text-decoration: none;
+            transition: color .2s;
+        }
+
+        .footer-col ul a:hover {
+            color: #fff;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 0;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-copy {
+            font-size: 12px;
+            color: rgba(155, 165, 192, .35);
+        }
+
+        .footer-badges {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .footer-badge {
+            font-size: 10px;
+            font-weight: 700;
+            color: rgba(155, 165, 192, .5);
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 6px;
+            padding: 4px 10px;
+        }
+
+        /* â”€â”€ Form system â”€â”€ */
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #9ba5c0;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+        }
+
+        .form-input,
+        .form-select,
+        .form-textarea {
+            background: rgba(255, 255, 255, .05);
+            border: 1px solid rgba(255, 255, 255, .1);
+            border-radius: 10px;
+            padding: 12px 15px;
+            font-size: 14px;
+            color: #fff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            outline: none;
+            transition: all .2s;
+            width: 100%;
+        }
+
+        .form-input::placeholder,
+        .form-textarea::placeholder {
+            color: rgba(155, 165, 192, .45);
+        }
+
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            border-color: rgba(4, 108, 78, .5);
+            background: rgba(4, 108, 78, .04);
+            box-shadow: 0 0 0 3px rgba(4, 108, 78, .08);
+        }
+
+        .form-select option {
+            background: #1a2038;
+            color: #fff;
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 110px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .form-submit {
+            width: 100%;
+        }
+
+        /* â”€â”€ Career cards â”€â”€ */
+        .career-card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: var(--r2);
+            padding: 26px 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 24px;
+            transition: all .25s;
+            margin-bottom: 14px;
+        }
+
+        .career-card:hover {
+            border-color: rgba(4, 108, 78, .25);
+            transform: translateY(-2px);
+        }
+
+        .career-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .career-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+            max-width: 500px;
+            margin-top: 8px;
+        }
+
+        .career-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .career-tag {
+            font-size: 11px;
+            font-weight: 600;
+            color: #10B981;
+            background: rgba(4, 108, 78, .1);
+            border: 1px solid rgba(4, 108, 78, .2);
+            border-radius: 6px;
+            padding: 3px 9px;
+        }
+
+        /* â”€â”€ Responsive â”€â”€ */
+        @media(max-width:1024px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 36px;
+            }
+        }
+
+        @media(max-width:1100px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .container,
+            .container-sm {
+                padding: 0 20px;
+            }
+
+            .section {
+                padding: 60px 0;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .toc-list {
+                grid-template-columns: 1fr;
+            }
+
+            footer.site-footer {
+                padding: 48px 0 0;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 28px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #ck {
+                padding: 14px 20px;
+            }
+
+            .career-card {
+                flex-direction: column;
+            }
+        }
+
+        @media(max-width:600px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .wa-fab {
+                right: 16px;
+                bottom: 84px;
+            }
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 0 60px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(160deg, #0a0d18 0%, #0d1525 55%, #0a0d18 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(4, 108, 78, .1) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -80px;
+            left: -60px;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(4, 108, 78, .06) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 72px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(4, 108, 78, .15);
+            border: 1px solid rgba(4, 108, 78, .35);
+            border-radius: 100px;
+            padding: 6px 16px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .04em;
+            margin-bottom: 24px;
+        }
+
+        .badge-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #10B981;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, .5)
+            }
+
+            50% {
+                box-shadow: 0 0 0 7px rgba(16, 185, 129, 0)
+            }
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(42px, 5.5vw, 68px);
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.08;
+            letter-spacing: -.03em;
+            margin-bottom: 18px;
+        }
+
+        .hero-title span {
+            color: #10B981;
+        }
+
+        .hero-sub {
+            font-size: 16px;
+            color: rgba(155, 165, 192, .85);
+            line-height: 1.8;
+            max-width: 440px;
+            margin-bottom: 12px;
+        }
+
+        .hero-city {
+            font-size: 13px;
+            color: rgba(155, 165, 192, .5);
+            margin-bottom: 28px;
+        }
+
+        .hero-city strong {
+            color: rgba(255, 255, 255, .75);
+            font-weight: 600;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-bottom: 36px;
+        }
+
+        .hero-trust {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .htrust {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 12px;
+            color: rgba(155, 165, 192, .6);
+            font-weight: 500;
+        }
+
+        .htrust-icon {
+            font-size: 16px;
+        }
+
+        /* Booking card */
+        .booking-card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .08);
+            border-radius: 24px;
+            padding: 32px 28px;
+            box-shadow: 0 32px 80px rgba(0, 0, 0, .5);
+        }
+
+        .bc-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 6px;
+            letter-spacing: -.02em;
+        }
+
+        .bc-sub {
+            font-size: 13px;
+            color: #9ba5c0;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        .bc-step {
+            display: none;
+        }
+
+        .bc-step.active {
+            display: block;
+        }
+
+        .otp-boxes {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin: 16px 0;
+        }
+
+        .obox {
+            width: 46px;
+            height: 54px;
+            background: rgba(255, 255, 255, .05);
+            border: 2px solid rgba(255, 255, 255, .12);
+            border-radius: 11px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            outline: none;
+            transition: all .2s;
+        }
+
+        .obox:focus {
+            border-color: #046C4E;
+            background: rgba(4, 108, 78, .07);
+        }
+
+        .otp-resend {
+            text-align: center;
+            font-size: 12px;
+            color: #9ba5c0;
+            margin-top: 8px;
+        }
+
+        .otp-resend a {
+            color: #10B981;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .success-inner {
+            text-align: center;
+            padding: 12px 0 4px;
+        }
+
+        .sico {
+            font-size: 56px;
+            display: block;
+            margin-bottom: 14px;
+            animation: pop .5s cubic-bezier(.34, 1.56, .64, 1) both;
+        }
+
+        @keyframes pop {
+            from {
+                transform: scale(0);
+                opacity: 0
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        .suc-title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .suc-sub {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .suc-ref {
+            display: inline-block;
+            background: rgba(4, 108, 78, .1);
+            border: 1px solid rgba(4, 108, 78, .25);
+            border-radius: 9px;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .04em;
+            margin-bottom: 16px;
+        }
+
+        .bc-disclaimer {
+            font-size: 10.5px;
+            color: rgba(155, 165, 192, .4);
+            margin-top: 12px;
+            line-height: 1.65;
+        }
+
+        .bc-disclaimer a {
+            color: rgba(16, 185, 129, .6);
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            background: #0d1120;
+            border-top: 1px solid rgba(255, 255, 255, .05);
+            border-bottom: 1px solid rgba(255, 255, 255, .05);
+            padding: 48px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 20%;
+            bottom: 20%;
+            width: 1px;
+            background: rgba(255, 255, 255, .08);
+        }
+
+        .stat-num {
+            font-family: 'Playfair Display', serif;
+            font-size: 46px;
+            font-weight: 700;
+            color: #10B981;
+            line-height: 1;
+            display: block;
+            letter-spacing: -.02em;
+        }
+
+        .stat-lbl {
+            font-size: 12.5px;
+            color: rgba(155, 165, 192, .65);
+            margin-top: 7px;
+            font-weight: 500;
+        }
+
+        /* Services section */
+        .svc-chips {
+            overflow: hidden;
+            margin-bottom: 52px;
+            -webkit-mask: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+            mask: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+        }
+
+        .chips-track {
+            display: flex;
+            gap: 14px;
+            width: max-content;
+            animation: chipScroll 26s linear infinite;
+        }
+
+        .chips-track:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes chipScroll {
+            from {
+                transform: translateX(0)
+            }
+
+            to {
+                transform: translateX(-50%)
+            }
+        }
+
+        .svc-chip-btn {
+            flex-shrink: 0;
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 12px;
+            padding: 12px 16px;
+            min-width: 120px;
+            width: 120px;
+            text-align: center;
+            cursor: pointer;
+            transition: all .25s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 7px;
+            text-decoration: none;
+        }
+
+        .svc-chip-btn:hover {
+            border-color: rgba(4, 108, 78, .5);
+            background: rgba(4, 108, 78, .08);
+            transform: translateY(-2px);
+        }
+
+        .chip-icon {
+            font-size: 26px;
+            line-height: 1;
+        }
+
+        .chip-name {
+            font-size: 11px;
+            font-weight: 600;
+            color: #e8e4df;
+            line-height: 1.3;
+        }
+
+        .svc-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .svc-card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 20px;
+            padding: 26px 24px;
+            transition: all .3s;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+        .svc-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #046C4E, transparent);
+            opacity: 0;
+            transition: opacity .3s;
+        }
+
+        .svc-card:hover {
+            border-color: rgba(4, 108, 78, .35);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .45);
+        }
+
+        .svc-card:hover::before {
+            opacity: 1;
+        }
+
+        .svc-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(4, 108, 78, .12);
+            border-radius: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 16px;
+            flex-shrink: 0;
+        }
+
+        .svc-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            letter-spacing: -.01em;
+        }
+
+        .svc-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+            flex: 1;
+        }
+
+        .svc-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 14px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #10B981;
+        }
+
+        .svc-tag {
+            display: inline-flex;
+            margin-bottom: 8px;
+            font-size: 10px;
+            font-weight: 700;
+            color: #10B981;
+            background: rgba(4, 108, 78, .1);
+            border: 1px solid rgba(4, 108, 78, .22);
+            border-radius: 5px;
+            padding: 2px 8px;
+        }
+
+        /* How it works */
+        .how-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            position: relative;
+        }
+
+        .how-grid::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: calc(16.67%+16px);
+            right: calc(16.67%+16px);
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #046C4E 30%, #046C4E 70%, transparent);
+            opacity: .3;
+        }
+
+        .how-step {
+            text-align: center;
+            padding: 0 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .how-num {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #046C4E, #059669);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+            margin: 0 auto 20px;
+            box-shadow: 0 8px 24px rgba(4, 108, 78, .35);
+        }
+
+        .how-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 9px;
+        }
+
+        .how-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.75;
+        }
+
+        /* Why choose */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .why-card {
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 18px;
+            padding: 24px 22px;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            transition: all .25s;
+        }
+
+        .why-card:hover {
+            border-color: rgba(4, 108, 78, .28);
+            transform: translateY(-2px);
+        }
+
+        .why-icon {
+            font-size: 28px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .why-title {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+
+        .why-desc {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.7;
+        }
+
+        /* Testimonials */
+        .test-scroll {
+            display: flex;
+            gap: 16px;
+            overflow: hidden;
+            margin-bottom: 14px;
+            -webkit-mask: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+            mask: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        }
+
+        .test-track {
+            display: flex;
+            gap: 16px;
+            animation: scrollL 32s linear infinite;
+            flex-shrink: 0;
+        }
+
+        .test-track.rev {
+            animation: scrollR 36s linear infinite;
+        }
+
+        @keyframes scrollL {
+            from {
+                transform: translateX(0)
+            }
+
+            to {
+                transform: translateX(-50%)
+            }
+        }
+
+        @keyframes scrollR {
+            from {
+                transform: translateX(-50%)
+            }
+
+            to {
+                transform: translateX(0)
+            }
+        }
+
+        .test-card {
+            flex-shrink: 0;
+            width: 280px;
+            background: #131929;
+            border: 1px solid rgba(255, 255, 255, .07);
+            border-radius: 16px;
+            padding: 20px 18px;
+        }
+
+        .test-stars {
+            color: #10B981;
+            font-size: 12px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .test-text {
+            font-size: 12.5px;
+            color: #9ba5c0;
+            line-height: 1.75;
+            margin-bottom: 14px;
+            font-style: italic;
+        }
+
+        .test-auth {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .test-av {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .test-name {
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .test-role {
+            font-size: 11px;
+            color: #9ba5c0;
+        }
+
+        /* FAQ */
+        .faq-list {
+            max-width: 740px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, .07);
+        }
+
+        .faq-q {
+            width: 100%;
+            background: none;
+            border: none;
+            color: #fff;
+            text-align: left;
+            padding: 20px 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            transition: color .2s;
+        }
+
+        .faq-q:hover {
+            color: #10B981;
+        }
+
+        .faq-ico {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, .06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #10B981;
+            flex-shrink: 0;
+            transition: all .25s;
+            line-height: 1;
+        }
+
+        .faq-item.open .faq-ico {
+            background: #046C4E;
+            color: #fff;
+            transform: rotate(45deg);
+        }
+
+        .faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .35s ease;
+        }
+
+        .faq-item.open .faq-a {
+            max-height: 200px;
+        }
+
+        .faq-a p {
+            font-size: 13.5px;
+            color: #9ba5c0;
+            line-height: 1.8;
+            padding-bottom: 20px;
+        }
+
+        .faq-a a {
+            color: #10B981;
+        }
+
+        /* CTA banner */
+        .cta-banner {
+            background: linear-gradient(135deg, #062a1f, #0a1a10);
+            border: 1px solid rgba(4, 108, 78, .25);
+            border-radius: 28px;
+            padding: 64px 56px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(4, 108, 78, .1) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .cta-banner h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 3.5vw, 44px);
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 14px;
+            position: relative;
+        }
+
+        .cta-banner p {
+            font-size: 15px;
+            color: rgba(155, 165, 192, .8);
+            max-width: 480px;
+            margin: 0 auto 32px;
+            position: relative;
+        }
+
+        .cta-btns {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        /* avail banner */
+        .avail-banner {
+            background: #0d1525;
+            border: 1px solid rgba(4, 108, 78, .18);
+            border-radius: 20px;
+            padding: 28px 32px;
+            margin-top: 44px;
+            display: flex;
+            align-items: flex-start;
+            gap: 28px;
+            flex-wrap: wrap;
+        }
+
+        .avail-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: #10B981;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin-bottom: 7px;
+        }
+
+        .avail-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .avail-sub {
+            font-size: 13px;
+            color: #9ba5c0;
+            line-height: 1.65;
+        }
+
+        .avail-cities {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 4px;
+        }
+
+        .avail-city {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid rgba(255, 255, 255, .09);
+            border-radius: 11px;
+            padding: 9px 14px;
+            min-width: 86px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, .5);
+        }
+
+        .avail-city span {
+            font-size: 10px;
+            color: #9ba5c0;
+            font-weight: 500;
+        }
+
+        .avail-city.live {
+            background: rgba(4, 108, 78, .12);
+            border-color: rgba(4, 108, 78, .3);
+            color: #4ade80;
+        }
+
+        .avail-city.live span {
+            color: #4ade80;
+        }
+
+        @media(max-width:1100px) {
+            .hero-inner {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .svc-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .how-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .how-grid::before {
+                display: none;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero {
+                padding: 80px 0 50px;
+                min-height: auto;
+            }
+
+            .cta-banner {
+                padding: 40px 28px;
+            }
+
+            .avail-banner {
+                flex-direction: column;
+            }
+        }
+
+        @media(max-width:600px) {
+            .svc-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Compliance bar mobile wrap â”€â”€ */
+        @media(max-width:768px) {}
+
+        /* Hero booking card mobile â”€â”€ */
+        @media(max-width:600px) {
+
+            .book-card-inner,
+            .booking-inner {
+                padding: 28px 20px;
+            }
+
+            .otp-boxes {
+                gap: 6px;
+            }
+
+            .otp-box {
+                width: 40px;
+                height: 50px;
+                font-size: 20px;
+            }
+
+            .bc-title {
+                font-size: 16px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .hero {
+                padding: 72px 0 48px;
+            }
+
+            .hero-inner {
+                gap: 32px;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                font-size: 14px;
+                padding: 12px 20px;
+            }
+        }
+
+        /* iOS zoom prevention on inputs â”€â”€ */
+        @media(max-width:480px) {
+
+            input,
+            select,
+            textarea {
+                font-size: 16px !important;
+            }
+        }
+
+        .compliance-bar {
+            background: #050810;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding: 14px clamp(16px, 4vw, 32px);
+            overflow-x: hidden;
+        }
+
+        .compliance-bar p {
+            font-size: 11px;
+            color: rgba(155, 165, 192, 0.45);
+            line-height: 1.9;
+            max-width: 1200px;
+            margin: 0 auto;
+            word-break: break-word;
+        }
+
+        .compliance-bar a {
+            color: rgba(16, 185, 129, 0.7);
+            text-decoration: none;
+        }
+
+        .compliance-bar a:hover {
+            color: #10B981;
+        }
+
+        .compliance-bar strong {
+            color: rgba(155, 165, 192, 0.6);
+        }
+
+        @media(max-width:600px) {
+            .compliance-bar {
+                padding: 12px 16px;
+            }
+
+            .compliance-bar p {
+                font-size: 10px;
+                line-height: 1.8;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="recaptcha-container"></div>
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-wrap"> <a href="index.html" class="nav-logo" aria-label="Instalegl home">
+                <div class="nav-logo-mark"> <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"
+                        stroke-linecap="round">
+                        <path d="M12 2L3 7v5c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7L12 2z" />
+                        <path d="M9 12l2 2 4-4" />
+                    </svg> </div> Instalegl
+            </a>
+            <ul class="nav-links" role="list">
+                <li><a href="service-court.html">Court &amp; Bail</a></li>
+                <li><a href="service-consultation.html">Consultation</a></li>
+                <li><a href="service-drafting.html">Drafting</a></li>
+                <li><a href="service-notice.html">Legal Notice</a></li>
+                <li><a href="service-notary.html">Affidavit</a></li>
+                <li><a href="service-contract.html">Contract Review</a></li>
+                <li><a href="service-trademark.html">Trademark</a></li>
+                <li><a href="service-probate.html">Probate</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions"> <a href="help.html" class="btn-ghost">Help</a> <a href="contact.html"
+                    class="btn-ghost">Contact</a> <a href="join-advocate.html" class="btn-em">Join as Advocate</a>
+            </div> <button class="hamburger" id="hb" aria-label="Toggle menu"> <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <nav class="mobile-nav" id="mnav" aria-label="Mobile navigation"> <a href="index.html">Home</a> <a
+            href="service-court.html">Court &amp; Bail</a> <a href="service-consultation.html">Consultation</a> <a
+            href="service-drafting.html">Drafting</a> <a href="service-notice.html">Legal Notice</a> <a
+            href="service-notary.html">Affidavit</a> <a href="service-contract.html">Contract Review</a> <a
+            href="service-trademark.html">Trademark</a> <a href="service-probate.html">Probate</a>
+        <div class="mob-sep"></div> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a
+            href="help.html">Help Centre</a> <a href="join-advocate.html">Join as Advocate</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <div class="badge-dot"></div>Mumbai's On-Demand Legal Services Platform
+                </div>
+                <h1 class="hero-title">Legal help,<br><span>in 30 minutes.</span></h1>
+                <p class="hero-sub">Connect with Bar Council-verified advocates for court hearings, bail, drafting,
+                    notices, trademark and more fixed prices, confirmed fast.</p>
+                <p class="hero-city">Currently live in <strong>Mumbai</strong> &mdash; expanding to all major cities
+                    soon</p>
+                <div class="hero-btns"> <a href="service-consultation.html" class="btn-primary">Free First Consultation
+                        &#8594;</a> <a href="service-court.html" class="btn-secondary">Book an Advocate</a> </div>
+                <div class="hero-trust">
+                    <div class="htrust"><span class="htrust-icon">&#128274;</span>Bar Council Verified</div>
+                </div>
+                <div style="margin-top:18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;"> <a
+                        href="https://wa.me/15512015873" target="_blank" rel="noopener"
+                        style="display:inline-flex;align-items:center;gap:8px;background:rgba(37,211,102,.12);border:1px solid rgba(37,211,102,.3);border-radius:100px;padding:8px 18px;font-size:13px;font-weight:700;color:#25d366;text-decoration:none;transition:all .2s;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="#25d366">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                            <path
+                                d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.944-1.418A9.945 9.945 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+                                fill-rule="evenodd" clip-rule="evenodd" />
+                        </svg> WhatsApp: +1 (551) 201-5873 </a> <a href="tel:+15512015873"
+                        style="display:inline-flex;align-items:center;gap:7px;color:rgba(155,165,192,.6);font-size:13px;font-weight:500;text-decoration:none;">
+                        &#128222; Call: +1 (551) 201-5873 </a> </div>
+            </div>
+            <div>
+                <div class="booking-card">
+                    <div class="bc-title">Get Started Free</div>
+                    <div class="bc-sub">Enter your details.</div>
+                    <div class="bc-step active" id="bc1">
+                        <div class="form-group"> <label for="bc-name" class="form-label">Your Full Name</label> <input
+                                class="form-input" id="bc-name" type="text" placeholder="e.g. Rahul Sharma"
+                                autocomplete="name"> </div>
+                        <div class="form-group"> <label class="form-label" for="bc-phone">Mobile Number</label> <input
+                                class="form-input" id="bc-phone" type="tel" placeholder="+91 98765 43210"
+                                autocomplete="tel"> </div>
+                        <div class="form-group"> <label class="form-label">What do you need?</label> <select
+                                class="form-select" id="bc-service">
+                                <option value="">Select a service</option>
+                                <option value="court">Court Representation / Bail</option>
+                                <option value="consultation">Legal Consultation (Free first session)</option>
+                                <option value="drafting">Document Drafting</option>
+                                <option value="notice">Legal Notice</option>
+                                <option value="notary">Affidavit / Notary</option>
+                                <option value="contract">Contract Review</option>
+                                <option value="trademark">Trademark Registration</option>
+                                <option value="probate">Probate / Succession</option>
+                                <option value="other">Other Legal Matter</option>
+                            </select> </div>
+                        <div class="form-group"> <label for="bc-email" class="form-label">Email Address</label> <input
+                                class="form-input" id="bc-email" type="email" placeholder="e.g. rahul@example.com"
+                                autocomplete="email"> </div> <button class="btn-primary form-submit"
+                            onclick="homeStep2()">Get Started &mdash; It&rsquo;s Free &#8594;</button>
+                        <p id="bc-otp-status" style="display:none;margin-top:10px;font-size:12px;font-weight:600;"></p>
+                        <p class="bc-disclaimer">By proceeding, you agree to our <a href="terms.html">Terms</a> and <a
+                                href="privacy.html">Privacy Policy</a>. A 6-digit OTP will be emailed to verify your
+                            identity. Instalegl is not a law firm. Services provided by independent Bar Council-enrolled
+                            advocates.</p>
+                    </div>
+                    <div class="bc-step" id="bc2">
+                        <p style="font-size:13px;color:#9ba5c0;margin-bottom:16px">OTP sent to <strong
+                                id="bc-email-disp" style="color:#fff">your email</strong></p>
+                        <!-- OTP sent via Brevo Email -->
+                        <div class="otp-boxes"> <input class="obox" id="o1" type="text" inputmode="numeric"
+                                aria-label="OTP digit 1" maxlength="1"> <input class="obox" id="o2" type="text"
+                                inputmode="numeric" aria-label="OTP digit 2" maxlength="1"> <input class="obox" id="o3"
+                                type="text" inputmode="numeric" aria-label="OTP digit 3" maxlength="1"> <input
+                                class="obox" id="o4" type="text" inputmode="numeric" aria-label="OTP digit 4"
+                                maxlength="1"> <input class="obox" id="o5" type="text" inputmode="numeric"
+                                aria-label="OTP digit 5" maxlength="1"> <input class="obox" id="o6" type="text"
+                                inputmode="numeric" aria-label="OTP digit 6" maxlength="1"> </div> <button
+                            class="btn-primary form-submit" onclick="homeVerify()">Verify &amp; Continue
+                            &#8594;</button>
+                        <div class="otp-resend">Didn&rsquo;t receive? <a onclick="homeResend()">Resend OTP</a></div>
+                        <p id="bc-otp-step-status" style="display:none;margin-top:10px;font-size:12px;font-weight:600;">
+                        </p>
+                    </div>
+                    <div class="bc-step" id="bc3">
+                        <div class="success-inner"> <span class="sico">&#127881;</span>
+                            <div class="suc-title">You&rsquo;re all set, <span id="bc-name-disp"></span>!</div>
+                            <p class="suc-sub">Your request has been received. A verified advocate will call you within
+                                <strong>30 minutes</strong>.
+                            </p>
+                            <div class="suc-ref" id="bc-ref-row" style="display:none">Ref: <span id="bc-ref"></span>
+                            </div>
+                            <p style="font-size:12px;color:#9ba5c0;margin-bottom:16px">Confirmation sent to <a
+                                    href="mailto:support@instalegl.com"
+                                    style="color:#10B981;text-decoration:none">support@instalegl.com</a>.</p> <a
+                                href="service-consultation.html" class="btn-primary" style="display:inline-flex">Explore
+                                All Services &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stats-bar">
+        <div class="stats-grid container">
+            <div class="stat-item"> <span class="stat-num" data-target="12000" data-suf="+">12,000+</span>
+                <div class="stat-lbl">Cases Resolved</div>
+            </div>
+            <div class="stat-item"> <span class="stat-num" data-target="850" data-suf="+">850+</span>
+                <div class="stat-lbl">Verified Advocates</div>
+            </div>
+            <div class="stat-item"> <span class="stat-num" data-target="15000" data-suf="+">15,000+</span>
+                <div class="stat-lbl">Client Hours Saved</div>
+            </div>
+            <div class="stat-item"> <span class="stat-num" data-target="96" data-suf="%">96%</span>
+                <div class="stat-lbl">Client Satisfaction</div>
+            </div>
+        </div>
+        <p style="text-align:center;font-size:11px;color:rgba(155,165,192,.35);margin-top:20px;letter-spacing:.02em;">
+            Based on platform data since launch &mdash; figures are estimates and updated periodically.</p>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="centered" style="margin-bottom:44px">
+                <div class="section-label">All Services</div>
+                <h2 class="section-title">Every legal need,<br>handled end-to-end</h2>
+            </div>
+            <div class="svc-chips">
+                <div class="chips-track"> <a href="service-court.html" class="svc-chip-btn"><span
+                            class="chip-icon">&#9878;</span><span class="chip-name">Court &amp; Bail</span></a> <a
+                        href="service-consultation.html" class="svc-chip-btn"><span
+                            class="chip-icon">&#128222;</span><span class="chip-name">Consultation</span></a> <a
+                        href="service-drafting.html" class="svc-chip-btn"><span class="chip-icon">&#128203;</span><span
+                            class="chip-name">Drafting</span></a> <a href="service-notice.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128276;</span><span class="chip-name">Legal
+                            Notice</span></a> <a href="service-notary.html" class="svc-chip-btn"><span
+                            class="chip-icon">&#128221;</span><span class="chip-name">Affidavit</span></a> <a
+                        href="service-contract.html" class="svc-chip-btn"><span class="chip-icon">&#129309;</span><span
+                            class="chip-name">Contracts</span></a> <a href="service-trademark.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#8482;</span><span
+                            class="chip-name">Trademark</span></a> <a href="service-probate.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128220;</span><span
+                            class="chip-name">Probate</span></a> <!-- duplicate for infinite scroll --> <a
+                        href="service-court.html" class="svc-chip-btn"><span class="chip-icon">&#9878;</span><span
+                            class="chip-name">Court &amp; Bail</span></a> <a href="service-consultation.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128222;</span><span
+                            class="chip-name">Consultation</span></a> <a href="service-drafting.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128203;</span><span
+                            class="chip-name">Drafting</span></a> <a href="service-notice.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128276;</span><span class="chip-name">Legal
+                            Notice</span></a> <a href="service-notary.html" class="svc-chip-btn"><span
+                            class="chip-icon">&#128221;</span><span class="chip-name">Affidavit</span></a> <a
+                        href="service-contract.html" class="svc-chip-btn"><span class="chip-icon">&#129309;</span><span
+                            class="chip-name">Contracts</span></a> <a href="service-trademark.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#8482;</span><span
+                            class="chip-name">Trademark</span></a> <a href="service-probate.html"
+                        class="svc-chip-btn"><span class="chip-icon">&#128220;</span><span
+                            class="chip-name">Probate</span></a> </div>
+            </div>
+            <div class="svc-grid"> <a href="service-court.html" class="svc-card">
+                    <div class="svc-icon">&#9878;</div>
+                    <div class="svc-name">Court &amp; Bail Representation</div>
+                    <p class="svc-desc">Experienced advocates appear on your behalf at District Courts, High Courts, and
+                        Supreme Court for civil, criminal, and family matters. Same-day bail hearing bookings accepted.
+                    </p> <span class="svc-cta">Book Now &#8594;</span>
+                </a> <a href="service-consultation.html" class="svc-card">
+                    <div class="svc-icon">&#128222;</div>
+                    <div class="svc-tag">First Session FREE</div>
+                    <div class="svc-name">Legal Consultation</div>
+                    <p class="svc-desc">One-on-one session with a specialist advocate in criminal, civil, property,
+                        family, labour, or corporate law. Online or in-person. Written advice summary included.</p>
+                    <span class="svc-cta">Free Consult &#8594;</span>
+                </a> <a href="service-drafting.html" class="svc-card">
+                    <div class="svc-icon">&#128203;</div>
+                    <div class="svc-name">Document Drafting</div>
+                    <p class="svc-desc">Plaints, petitions, written statements, agreements, MoUs, Wills â€”
+                        professionally drafted by enrolled advocates in the correct court format. Delivered in
+                        24&ndash;48 hours.</p> <span class="svc-cta">Get Drafted &#8594;</span>
+                </a> <a href="service-notice.html" class="svc-card">
+                    <div class="svc-icon">&#128276;</div>
+                    <div class="svc-name">Legal Notice</div>
+                    <p class="svc-desc">Advocate-drafted and signed legal notices for cheque dishonour (s.138 NI Act),
+                        property disputes, rent recovery, consumer complaints, and contract breaches. Dispatched by
+                        registered post in 24 hours.</p> <span class="svc-cta">Send Notice &#8594;</span>
+                </a> <a href="service-notary.html" class="svc-card">
+                    <div class="svc-icon">&#128221;</div>
+                    <div class="svc-name">Affidavit &amp; Notary</div>
+                    <p class="svc-desc">Affidavits drafted and notarized for self-declaration, name change, domicile,
+                        income proof, and court submission. Notary-stamped. Physical and digital copies delivered.</p>
+                    <span class="svc-cta">Get Notarized &#8594;</span>
+                </a> <a href="service-contract.html" class="svc-card">
+                    <div class="svc-icon">&#129309;</div>
+                    <div class="svc-name">Contract Review</div>
+                    <p class="svc-desc">Business agreements, employment contracts, property deeds, and NDAs reviewed
+                        clause-by-clause. Risk rating provided. Redlined contract returned with written legal opinion in
+                        48 hours.</p> <span class="svc-cta">Review Contract &#8594;</span>
+                </a> <a href="service-trademark.html" class="svc-card">
+                    <div class="svc-icon">&#8482;</div>
+                    <div class="svc-tag">Mumbai</div>
+                    <div class="svc-name">Trademark Registration</div>
+                    <p class="svc-desc">Comprehensive TM search, Indian Trademark Registry filing across all 45 classes,
+                        Madrid Protocol for 180+ countries, and objection reply handling â€” all by IP-specialist
+                        advocates.</p> <span class="svc-cta">Protect Brand &#8594;</span>
+                </a> <a href="service-probate.html" class="svc-card">
+                    <div class="svc-icon">&#128220;</div>
+                    <div class="svc-tag">Mumbai</div>
+                    <div class="svc-name">Probate &amp; Succession</div>
+                    <p class="svc-desc">Probate of Will at Bombay High Court, Letters of Administration, and Succession
+                        Certificates at District Courts handled end-to-end with full court attendance.</p> <span
+                        class="svc-cta">Start Process &#8594;</span>
+                </a>
+                <div class="svc-card"
+                    style="background:linear-gradient(135deg,rgba(4,108,78,.08),rgba(4,108,78,.02));border-color:rgba(4,108,78,.2);justify-content:center;align-items:center;text-align:center;min-height:200px;">
+                    <div style="font-size:36px;margin-bottom:14px">&#9878;</div>
+                    <div class="svc-name">Are you an Advocate?</div>
+                    <p class="svc-desc" id="advocates-join-text" style="font-size:13px;text-align:center">Join 850+ verified advocates on
+                        Instalegl. Free to join. 48-hour onboarding.</p> <a href="join-advocate.html" class="svc-cta"
+                        style="margin-top:14px">Join the Network &#8594;</a>
+                </div>
+            </div>
+            <div class="avail-banner">
+                <div>
+                    <div class="avail-label">Availability</div>
+                    <div class="avail-title">Currently live in Mumbai</div>
+                    <p class="avail-sub" style="max-width:340px">Expanding to all major Indian cities shortly. Online
+                        consultations, drafting, and legal notices are available pan-India.</p>
+                </div>
+                <div>
+                    <div class="avail-cities">
+                        <div class="avail-city live">Mumbai<span>&#128205; Live Now</span></div>
+                        <div class="avail-city ">Delhi NCR<span>Coming Soon</span></div>
+                        <div class="avail-city ">Bengaluru<span>Coming Soon</span></div>
+                        <div class="avail-city ">Hyderabad<span>Coming Soon</span></div>
+                        <div class="avail-city ">Chennai<span>Coming Soon</span></div>
+                        <div class="avail-city ">Pune<span>Coming Soon</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section alt">
+        <div class="container">
+            <div class="centered" style="margin-bottom:56px">
+                <div class="section-label">How It Works</div>
+                <h2 class="section-title">Legal help in 3 simple steps</h2>
+            </div>
+            <div class="how-grid">
+                <div class="how-step">
+                    <div class="how-num">1</div>
+                    <div class="how-title">Describe Your Matter</div>
+                    <p class="how-desc">Enter your name, mobile number, and select the type of legal help you need.
+                        Takes under 60 seconds.</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-num">2</div>
+                    <div class="how-title">Get Matched &amp; Confirmed</div>
+                    <p class="how-desc">We match you with the best-fit Bar Council-verified advocate,24/7.</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-num">3</div>
+                    <div class="how-title">Your Matter Is Handled</div>
+                    <p class="how-desc">Your advocate handles everything court appearance, drafting, consultation,
+                        or notice with real-time updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;"
+                class="why-section-inner">
+                <div>
+                    <div class="section-label">Why Instalegl</div>
+                    <h2 class="section-title">The smarter way to access legal help</h2>
+                    <p class="section-sub" style="margin-bottom:32px">Thousands of Indians have trusted Instalegl to
+                        handle their legal matters. Here&rsquo;s what sets us apart.</p>
+                    <div class="why-grid">
+                        <div class="why-card">
+                            <div class="why-icon">&#128274;</div>
+                            <div>
+                                <div class="why-title">Bar Council Verified</div>
+                                <p class="why-desc">6-step verification including BCI database check and disciplinary
+                                    record review for every advocate.</p>
+                            </div>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">&#128200;</div>
+                            <div>
+                                <div class="why-title">Fixed Transparent Prices</div>
+                                <p class="why-desc">You see the exact fee before booking. No surprise charges. No
+                                    ambiguity. GST invoice issued for every transaction.</p>
+                            </div>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">&#9200;</div>
+                            <div>
+                                <p class="why-desc">We confirm your booking within 30 minutes â€” even for same-day
+                                    court hearings and urgent bail applications.</p>
+                            </div>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">&#128219;</div>
+                            <div>
+                                <div class="why-title">BCI Compliant Platform</div>
+                                <p class="why-desc">We operate as an IT intermediary under IT Act 2000 s.79, fully
+                                    compliant with Bar Council of India Rules.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div
+                        style="background:#131929;border:1px solid rgba(255,255,255,.07);border-radius:24px;padding:36px 32px;">
+                        <div
+                            style="font-size:11px;font-weight:700;color:#9ba5c0;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px">
+                            Trusted by clients across Mumbai</div>
+                        <div style="display:flex;flex-direction:column;gap:14px;">
+                            <div style="background:rgba(255,255,255,.03);border-radius:14px;padding:18px 16px">
+                                <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+                                    <div
+                                        style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#046C4E,#059669);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff">
+                                        RS</div>
+                                    <div>
+                                        <div style="font-size:13px;font-weight:700;color:#fff">Rohit S.</div>
+                                        <div style="font-size:11px;color:#9ba5c0">Bail Hearing â€” Same Day</div>
+                                    </div>
+                                    <div style="margin-left:auto;font-size:12px;color:#10B981">
+                                        &#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                                </div>
+                                <p style="font-size:12.5px;color:#9ba5c0;margin:0;font-style:italic">&ldquo;Advocate
+                                    appeared within 4 hours of booking. Professional, prepared, and outcome was
+                                    positive.&rdquo;</p>
+                            </div>
+                            <div style="background:rgba(255,255,255,.03);border-radius:14px;padding:18px 16px">
+                                <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+                                    <div
+                                        style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#4158d0,#c850c0);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff">
+                                        PM</div>
+                                    <div>
+                                        <div style="font-size:13px;font-weight:700;color:#fff">Priya M.</div>
+                                        <div style="font-size:11px;color:#9ba5c0">Contract Review â€” 48hrs</div>
+                                    </div>
+                                    <div style="margin-left:auto;font-size:12px;color:#10B981">
+                                        &#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                                </div>
+                                <p style="font-size:12.5px;color:#9ba5c0;margin:0;font-style:italic">&ldquo;The redlined
+                                    agreement saved me from signing a deal that would have cost lakhs. Exceptional
+                                    work.&rdquo;</p>
+                            </div>
+                            <div
+                                style="background:rgba(4,108,78,.07);border:1px solid rgba(4,108,78,.18);border-radius:14px;padding:16px;display:flex;gap:16px;align-items:center">
+                                <div style="text-align:center;flex-shrink:0">
+                                    <div
+                                        style="font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:#10B981;line-height:1">
+                                        4.8</div>
+                                    <div style="font-size:11px;color:#9ba5c0;margin-top:4px">Average Rating</div>
+                                </div>
+                                <div>
+                                    <div style="font-size:13px;font-weight:700;color:#fff;margin-bottom:4px">Verified
+                                        client reviews only</div>
+                                    <p style="font-size:12px;color:#9ba5c0;margin:0">Reviews can only be submitted after
+                                        completing a booked service. Zero fake or incentivised reviews permitted.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section alt">
+        <div class="container">
+            <div class="centered" style="margin-bottom:44px">
+                <div class="section-label">Client Stories</div>
+                <h2 class="section-title" id="cases-resolved-title">12,000+ cases resolved.<br>Real clients. Real outcomes.</h2>
+            </div>
+            <div class="test-scroll">
+                <div class="test-track">
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Booked an advocate for a bail hearing at 11pm. Confirmed within 20
+                            minutes. Absolute lifesaver during a family crisis.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rahul Sinha</div>
+                                <div class="test-role">Senior Manager, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;My NDA was reviewed thoroughly in less than 48 hours. The advocate
+                            flagged three major risks I completely missed. Worth every rupee.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">PN
+                            </div>
+                            <div>
+                                <div class="test-name">Priya Nair</div>
+                                <div class="test-role">Startup Founder, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Trademark filed on day one. The IP advocate was incredibly
+                            knowledgeable and kept me updated at every stage.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">VP
+                            </div>
+                            <div>
+                                <div class="test-name">Vikram Patel</div>
+                                <div class="test-role">Brand Owner, Pune</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Legal notice drafted and sent by registered post within 24 hours.
+                            The tenant vacated within 30 days. Highly recommend!&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">SJ
+                            </div>
+                            <div>
+                                <div class="test-name">Sunita Joshi</div>
+                                <div class="test-role">Property Owner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;The consultation was free for my first session. The advocate gave me
+                            a clear strategy and written summary. Outstanding service.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">AK
+                            </div>
+                            <div>
+                                <div class="test-name">Arun Krishnan</div>
+                                <div class="test-role">IT Professional, Bengaluru</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Succession certificate obtained in 8 weeks â€” much faster than I
+                            expected. The team appeared for every hearing without fail.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">MD
+                            </div>
+                            <div>
+                                <div class="test-name">Meena Desai</div>
+                                <div class="test-role">Retired Teacher, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Fixed pricing meant no surprises. Paid exactly what was quoted. The
+                            advocate was punctual and prepared â€” filed written arguments too.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rohit Shah</div>
+                                <div class="test-role">Entrepreneur, Ahmedabad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Used Instalegl for my flat's sale deed drafting. Fast, professional,
+                            court-ready document. Would use again for all legal needs.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">DM
+                            </div>
+                            <div>
+                                <div class="test-name">Deepa Menon</div>
+                                <div class="test-role">Homeowner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Booked an advocate for a bail hearing at 11pm. Confirmed within 20
+                            minutes. Absolute lifesaver during a family crisis.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rahul Sinha</div>
+                                <div class="test-role">Senior Manager, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;My NDA was reviewed thoroughly in less than 48 hours. The advocate
+                            flagged three major risks I completely missed. Worth every rupee.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">PN
+                            </div>
+                            <div>
+                                <div class="test-name">Priya Nair</div>
+                                <div class="test-role">Startup Founder, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Trademark filed on day one. The IP advocate was incredibly
+                            knowledgeable and kept me updated at every stage.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">VP
+                            </div>
+                            <div>
+                                <div class="test-name">Vikram Patel</div>
+                                <div class="test-role">Brand Owner, Pune</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Legal notice drafted and sent by registered post within 24 hours.
+                            The tenant vacated within 30 days. Highly recommend!&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">SJ
+                            </div>
+                            <div>
+                                <div class="test-name">Sunita Joshi</div>
+                                <div class="test-role">Property Owner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;The consultation was free for my first session. The advocate gave me
+                            a clear strategy and written summary. Outstanding service.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">AK
+                            </div>
+                            <div>
+                                <div class="test-name">Arun Krishnan</div>
+                                <div class="test-role">IT Professional, Bengaluru</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Succession certificate obtained in 8 weeks â€” much faster than I
+                            expected. The team appeared for every hearing without fail.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">MD
+                            </div>
+                            <div>
+                                <div class="test-name">Meena Desai</div>
+                                <div class="test-role">Retired Teacher, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Fixed pricing meant no surprises. Paid exactly what was quoted. The
+                            advocate was punctual and prepared â€” filed written arguments too.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rohit Shah</div>
+                                <div class="test-role">Entrepreneur, Ahmedabad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Used Instalegl for my flat's sale deed drafting. Fast, professional,
+                            court-ready document. Would use again for all legal needs.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">DM
+                            </div>
+                            <div>
+                                <div class="test-name">Deepa Menon</div>
+                                <div class="test-role">Homeowner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="test-scroll" style="margin-top:16px">
+                <div class="test-track rev">
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Booked an advocate for a bail hearing at 11pm. Confirmed within 20
+                            minutes. Absolute lifesaver during a family crisis.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rahul Sinha</div>
+                                <div class="test-role">Senior Manager, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;My NDA was reviewed thoroughly in less than 48 hours. The advocate
+                            flagged three major risks I completely missed. Worth every rupee.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">PN
+                            </div>
+                            <div>
+                                <div class="test-name">Priya Nair</div>
+                                <div class="test-role">Startup Founder, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Trademark filed on day one. The IP advocate was incredibly
+                            knowledgeable and kept me updated at every stage.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">VP
+                            </div>
+                            <div>
+                                <div class="test-name">Vikram Patel</div>
+                                <div class="test-role">Brand Owner, Pune</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Legal notice drafted and sent by registered post within 24 hours.
+                            The tenant vacated within 30 days. Highly recommend!&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">SJ
+                            </div>
+                            <div>
+                                <div class="test-name">Sunita Joshi</div>
+                                <div class="test-role">Property Owner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;The consultation was free for my first session. The advocate gave me
+                            a clear strategy and written summary. Outstanding service.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">AK
+                            </div>
+                            <div>
+                                <div class="test-name">Arun Krishnan</div>
+                                <div class="test-role">IT Professional, Bengaluru</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Succession certificate obtained in 8 weeks â€” much faster than I
+                            expected. The team appeared for every hearing without fail.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">MD
+                            </div>
+                            <div>
+                                <div class="test-name">Meena Desai</div>
+                                <div class="test-role">Retired Teacher, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Fixed pricing meant no surprises. Paid exactly what was quoted. The
+                            advocate was punctual and prepared â€” filed written arguments too.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rohit Shah</div>
+                                <div class="test-role">Entrepreneur, Ahmedabad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Used Instalegl for my flat's sale deed drafting. Fast, professional,
+                            court-ready document. Would use again for all legal needs.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">DM
+                            </div>
+                            <div>
+                                <div class="test-name">Deepa Menon</div>
+                                <div class="test-role">Homeowner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Booked an advocate for a bail hearing at 11pm. Confirmed within 20
+                            minutes. Absolute lifesaver during a family crisis.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rahul Sinha</div>
+                                <div class="test-role">Senior Manager, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;My NDA was reviewed thoroughly in less than 48 hours. The advocate
+                            flagged three major risks I completely missed. Worth every rupee.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">PN
+                            </div>
+                            <div>
+                                <div class="test-name">Priya Nair</div>
+                                <div class="test-role">Startup Founder, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Trademark filed on day one. The IP advocate was incredibly
+                            knowledgeable and kept me updated at every stage.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">VP
+                            </div>
+                            <div>
+                                <div class="test-name">Vikram Patel</div>
+                                <div class="test-role">Brand Owner, Pune</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Legal notice drafted and sent by registered post within 24 hours.
+                            The tenant vacated within 30 days. Highly recommend!&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">SJ
+                            </div>
+                            <div>
+                                <div class="test-name">Sunita Joshi</div>
+                                <div class="test-role">Property Owner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;The consultation was free for my first session. The advocate gave me
+                            a clear strategy and written summary. Outstanding service.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">AK
+                            </div>
+                            <div>
+                                <div class="test-name">Arun Krishnan</div>
+                                <div class="test-role">IT Professional, Bengaluru</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Succession certificate obtained in 8 weeks â€” much faster than I
+                            expected. The team appeared for every hearing without fail.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">MD
+                            </div>
+                            <div>
+                                <div class="test-name">Meena Desai</div>
+                                <div class="test-role">Retired Teacher, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Fixed pricing meant no surprises. Paid exactly what was quoted. The
+                            advocate was punctual and prepared â€” filed written arguments too.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">RS
+                            </div>
+                            <div>
+                                <div class="test-name">Rohit Shah</div>
+                                <div class="test-role">Entrepreneur, Ahmedabad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-stars">&#10023;&#10023;&#10023;&#10023;&#10023;</div>
+                        <p class="test-text">&ldquo;Used Instalegl for my flat's sale deed drafting. Fast, professional,
+                            court-ready document. Would use again for all legal needs.&rdquo;</p>
+                        <div class="test-auth">
+                            <div class="test-av" style="background:linear-gradient(135deg,var(--em),var(--em2))">DM
+                            </div>
+                            <div>
+                                <div class="test-name">Deepa Menon</div>
+                                <div class="test-role">Homeowner, Mumbai</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="centered" style="margin-bottom:52px">
+                <div class="section-label">FAQ</div>
+                <h2 class="section-title">Frequently asked questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">What is Instalegl and is it a law
+                        firm?<div class="faq-ico">+</div></button>
+                    <div class="faq-a">
+                        <p>Instalegl is a technology intermediary marketplace â€” <strong>not a law firm</strong>. We
+                            operate under Section 79 of the IT Act, 2000. All legal services are rendered exclusively by
+                            independent, Bar Council-enrolled advocates who are solely responsible for their
+                            professional conduct. Nothing on this platform constitutes legal advice from Instalegl.</p>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">How quickly can I get an advocate?
+                        <div class="faq-ico">+</div>
+                    </button>
+                    <div class="faq-a">
+                        <p>We confirm bookings within <strong>30 minutes</strong>, 24/7. For urgent matters like
+                            same-day bail hearings, we prioritise immediately. Simply select your service above and
+                            complete the booking form you'll hear from us within 30 minutes.</p>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">Are the advocates genuinely Bar
+                        Council verified?<div class="faq-ico">+</div></button>
+                    <div class="faq-a">
+                        <p>Yes. Every advocate undergoes our 6-step verification: document submission, BCI database
+                            cross-referencing, KYC via NSDL/UIDAI, disciplinary record check under s.35 of the Advocates
+                            Act, platform onboarding, and annual re-verification. Any disciplinary action results in
+                            immediate suspension. See our <a href="bar-council.html">Bar Council Compliance page</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">What are the prices and is there a
+                        free consultation?<div class="faq-ico">+</div></button>
+                    <div class="faq-a">
+    <p>
+        Yes, your <strong>first legal consultation is FREE</strong>. All our services come with fixed and transparent pricing, which is clearly displayed before booking.
+        <br><br>
+        Court appearances start at ₹1,499 per hearing, legal notices at ₹999, drafting services from ₹799, and trademark registration from ₹2,999.
+        <br><br>
+        There are no hidden charges, and a GST invoice is issued for every transaction.
+        <br><br>
+        You can view detailed pricing on each service page 
+        <a href="service-consultation.html">here</a>.
+    </p>
+</div>
+                </div>
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">What is the refund and
+                        cancellation policy?<div class="faq-ico">+</div></button>
+                    <div class="faq-a">
+                        <p>You get a <strong>100% refund</strong> if the advocate cancels, the service isn't rendered,
+                            or you cancel 48+ hours before the scheduled service. 50% refund for cancellations 24-48
+                            hours before. No refund under 24 hours. See the full <a href="refund.html">Refund
+                                Policy</a>.</p>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q" onclick="toggleFAQ(this)">Where is Instalegl available?<div
+                            class="faq-ico">+</div></button>
+                    <div class="faq-a">
+                        <p>Instalegl is currently live in <strong>Mumbai</strong>. Online legal consultations, document
+                            drafting, and legal notices are available pan-India via video/phone. We are expanding to
+                            Delhi NCR, Bengaluru, Hyderabad, Chennai, and Pune soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section alt">
+        <div class="container">
+            <div class="cta-banner">
+                <h2>Ready to get expert legal help?</h2>
+                <p id="clients-trusted-text">Join 12,000+ clients who have trusted Instalegl. Your first consultation is completely free.</p>
+                <div class="cta-btns"> <a href="service-consultation.html" class="btn-primary"
+                        style="font-size:15px;padding:14px 28px">Start Free Consultation &#8594;</a> <a
+                        href="join-advocate.html" class="btn-secondary" style="font-size:15px;padding:14px 28px">Join as
+                        Advocate</a> </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div> <a href="index.html"
+                        style="display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:800;font-size:18px;color:#fff;letter-spacing:-.03em">
+                        <div
+                            style="width:30px;height:30px;background:linear-gradient(135deg,#046C4E,#059669);border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"
+                                stroke-linecap="round">
+                                <path d="M12 2L3 7v5c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7L12 2z" />
+                                <path d="M9 12l2 2 4-4" />
+                            </svg>
+                        </div>Instalegl
+                    </a>
+                    <p class="footer-desc">Mumbai's on-demand legal services platform. Book Bar Council-verified
+                        advocates in 30 minutes. Fixed prices. Zero hidden fees.</p>
+                    <p style="margin-top:14px;font-size:12px;color:rgba(155,165,192,.45)">Built for clients in India.
+                        Corporate and regulatory disclosures are available in our Terms and Privacy pages.</p>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-title">Services</div>
+                    <ul>
+                        <li><a href="service-court.html">Court Representation</a></li>
+                        <li><a href="service-consultation.html">Legal Consultation</a></li>
+                        <li><a href="service-drafting.html">Document Drafting</a></li>
+                        <li><a href="service-notice.html">Legal Notice</a></li>
+                        <li><a href="service-notary.html">Affidavit &amp; Notary</a></li>
+                        <li><a href="service-contract.html">Contract Review</a></li>
+                        <li><a href="service-trademark.html">Trademark (Mumbai)</a></li>
+                        <li><a href="service-probate.html">Probate (Mumbai)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-title">Company</div>
+                    <ul>
+                        <li><a href="about.html">About Instalegl</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="press.html">Press &amp; Media</a></li>
+                        <li><a href="join-advocate.html">Join as Advocate</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="help.html">Help Centre</a></li>
+                        <li><a href="https://wa.me/15512015873" target="_blank" rel="noopener"
+                                style="color:#25d366;text-decoration:none">&#128154; WhatsApp: +1 (551) 201-5873</a>
+                        </li>
+                        <li><a href="mailto:support@instalegl.com"
+                                style="color:#10B981;text-decoration:none">support@instalegl.com</a></li>
+                        <li><a href="mailto:grievance@instalegl.in"
+                                style="color:#10B981;text-decoration:none">grievance@instalegl.in</a></li>
+                    </ul>
+                </div>
+            </div><!-- /footer-grid -->
+            <div
+                style="border-top:1px solid rgba(255,255,255,.06);margin-top:48px;padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+                <p style="font-size:12px;color:rgba(155,165,192,.4)">&copy; 2026 Instalegl</p>
+                <div style="display:flex;gap:16px;flex-wrap:wrap;"> <a href="terms.html"
+                        style="font-size:12px;color:rgba(155,165,192,.4);text-decoration:none">Terms</a> <a
+                        href="privacy.html"
+                        style="font-size:12px;color:rgba(155,165,192,.4);text-decoration:none">Privacy</a> <a
+                        href="refund.html"
+                        style="font-size:12px;color:rgba(155,165,192,.4);text-decoration:none">Refunds</a> <a
+                        href="bar-council.html"
+                        style="font-size:12px;color:rgba(155,165,192,.4);text-decoration:none">Bar Council</a> </div>
+            </div>
+        </div><!-- /container -->
+    </footer>
+    <div class="compliance-bar">
+        <p><strong>Grievance Officer</strong> (IT Act 2000 s.79 &amp; DPDPA 2023): <a
+                href="mailto:grievance@instalegl.in">grievance@instalegl.in</a> &mdash; response within 30&nbsp;days
+            &nbsp;&middot;&nbsp; <strong>Legal Notices:</strong> <a
+                href="mailto:legal@instalegl.in">support@instalegl.in</a> &nbsp;&middot;&nbsp; <strong>Call /
+                WhatsApp:</strong> <a href="https://wa.me/15512015873" target="_blank" rel="noopener">+1 (551)
+                201-5873</a> &nbsp;&middot;&nbsp; IT Intermediary under IT Act 2000 s.79 &nbsp;&middot;&nbsp; Advocates
+            Act 1961 &amp; BCI Rules Compliant &nbsp;&middot;&nbsp; Instalegl is <strong>not a law firm</strong> &mdash;
+            services rendered by independent Bar Council-enrolled advocates &nbsp;&middot;&nbsp; <a
+                href="terms.html">Terms</a> &nbsp; <a href="privacy.html">Privacy</a> &nbsp; <a
+                href="refund.html">Refunds</a> &nbsp; <a href="bar-council.html">Bar Council</a></p>
+    </div>
+    <div id="ck" role="dialog" aria-label="Cookie consent">
+        <p>&#x1F36A; We use <strong>essential cookies</strong> for security and optional analytics. By clicking Accept
+            All you agree to our <a href="privacy.html">Privacy Policy</a>. IT Act 2000 &amp; DPDPA 2023 compliant.</p>
+        <div class="ck-btns"><button id="ck-ess">Essential Only</button><button id="ck-all">Accept All</button></div>
+    </div><a href="https://wa.me/15512015873" class="wa-fab" target="_blank" rel="noopener" aria-label="WhatsApp"><svg
+            viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+                d="M11.999 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.944-1.418A9.945 9.945 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+                fill-rule="evenodd" clip-rule="evenodd" />
+        </svg></a>
+    <script>/*  Stats counter animation with live data  */document.addEventListener('DOMContentLoaded', function () {
+        // Fetch live stats data
+        fetch('backend/get_stats.php')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success && data.data) {
+                    // Update data-target attributes with live data
+                    const statElements = document.querySelectorAll('.stat-item .stat-num');
+                    statElements.forEach(el => {
+                        const label = el.nextElementSibling ? el.nextElementSibling.textContent.toLowerCase() : '';
+                        let newValue = 0;
+
+                        if (label.includes('cases resolved')) {
+                            newValue = data.data.cases_resolved;
+                        } else if (label.includes('verified advocates')) {
+                            newValue = data.data.verified_advocates;
+                        } else if (label.includes('client hours saved')) {
+                            newValue = data.data.client_hours_saved;
+                        } else if (label.includes('client satisfaction')) {
+                            newValue = data.data.client_satisfaction;
+                        }
+
+                        if (newValue > 0) {
+                            el.setAttribute('data-target', newValue);
+                            // Update the display text as well
+                            const suffix = el.getAttribute('data-suf') || '';
+                            el.textContent = newValue.toLocaleString('en-IN') + suffix;
+                        }
+                    });
+
+                    // Update other text elements with live data
+                    const casesTitle = document.getElementById('cases-resolved-title');
+                    if (casesTitle) {
+                        casesTitle.innerHTML = data.data.cases_resolved.toLocaleString('en-IN') + '+ cases resolved.<br>Real clients. Real outcomes.';
+                    }
+
+                    const clientsText = document.getElementById('clients-trusted-text');
+                    if (clientsText) {
+                        clientsText.textContent = 'Join ' + data.data.total_clients.toLocaleString('en-IN') + '+ clients who have trusted Instalegl. Your first consultation is completely free.';
+                    }
+
+                    const advocatesText = document.getElementById('advocates-join-text');
+                    if (advocatesText) {
+                        advocatesText.innerHTML = 'Join ' + data.data.verified_advocates.toLocaleString('en-IN') + '+ verified advocates on<br>Instalegl. Free to join. 48-hour onboarding.';
+                    }
+                }
+            })
+            .catch(error => {
+                console.log('Could not fetch live stats, using default values:', error);
+            })
+            .finally(() => {
+                // Start the animation regardless of API success/failure
+                var nums = document.querySelectorAll('.stat-num[data-target]');
+                if (!nums.length) return;
+
+                var io = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (!entry.isIntersecting) return;
+                        var el = entry.target;
+                        var target = parseInt(el.getAttribute('data-target'), 10);
+                        var suf = el.getAttribute('data-suf') || '';
+                        var duration = 1600;
+                        var start = performance.now();
+
+                        function step(now) {
+                            var progress = Math.min((now - start) / duration, 1);
+                            var ease = 1 - Math.pow(1 - progress, 3);
+                            var current = Math.round(ease * target);
+                            el.textContent = current.toLocaleString('en-IN') + suf;
+                            if (progress < 1) requestAnimationFrame(step);
+                        }
+
+                        requestAnimationFrame(step);
+                        io.unobserve(el);
+                    });
+                }, { threshold: 0.3 });
+
+                nums.forEach(function (el) {
+                    io.observe(el);
+                });
+            });
+    });/* â”€â”€ FAQ accordion â”€â”€ */function toggleFAQ(btn) { var item = btn.closest('.faq-item') || btn.parentNode; var isOpen = item.classList.contains('open'); document.querySelectorAll('.faq-item.open').forEach(function (x) { x.classList.remove('open'); }); if (!isOpen) item.classList.add('open'); }</script>
+    <!-- External libraries load order critical -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="instalegl-config.js?v=20260404-otpfix"></script>
+    <script src="instalegl-core.js?v=20260404-otpfix"></script>
+    <script>(function () { function s(n, v) { document.cookie = n + '=' + v + ';path=/;max-age=31536000;SameSite=Lax'; } function g(n) { var c = document.cookie.split(';').map(function (x) { return x.trim(); }).find(function (x) { return x.startsWith(n + '='); }); return c ? c.split('=')[1] : null; } function hide() { var b = document.getElementById('ck'); if (b) b.style.display = 'none'; } document.addEventListener('DOMContentLoaded', function () { if (!g('ck_v')) { var b = document.getElementById('ck'); if (b) b.style.display = 'flex'; } var a = document.getElementById('ck-all'), e = document.getElementById('ck-ess'); if (a) a.addEventListener('click', function () { s('ck_v', 'all'); hide(); }); if (e) e.addEventListener('click', function () { s('ck_v', 'ess'); hide(); }); }); })();</script>
+    <script>document.addEventListener('DOMContentLoaded', function () { var hb = document.getElementById('hb'); var mn = document.getElementById('mnav'); if (hb && mn) { hb.addEventListener('click', function () { mn.classList.toggle('open'); }); } }); (function () { var set = function (n, v) { document.cookie = n + '=' + v + ';path=/;max-age=31536000;SameSite=Lax'; }; var get = function (n) { var c = document.cookie.split(';').map(function (s) { return s.trim(); }).find(function (s) { return s.startsWith(n + '='); }); return c ? c.split('=')[1] : null; }; var hide = function () { var b = document.getElementById('ck'); if (b) b.style.display = 'none'; }; document.addEventListener('DOMContentLoaded', function () { if (!get('ck_v')) { var b = document.getElementById('ck'); if (b) b.style.display = 'flex'; } var a = document.getElementById('ck-all'), e = document.getElementById('ck-ess'); if (a) a.addEventListener('click', function () { set('ck_v', 'all'); hide(); }); if (e) e.addEventListener('click', function () { set('ck_v', 'ess'); hide(); }); }); })();/* -- Booking form (home hero) -- */var IL_SERVICE_PRICES = { court: 1499, consultation: 0, drafting: 799, notice: 999, notary: 599, contract: 1499, trademark: 2999, probate: 5999, other: 999 }; var _ilHomeData = {}; function setHomeOtpFeedback(id, message, isError) { var el = document.getElementById(id); if (!el) return; if (!message) { el.style.display = 'none'; el.textContent = ''; return; } el.textContent = message; el.style.display = 'block'; el.style.color = isError ? '#fca5a5' : '#86efac'; } async function postHomeOtpJson(url, payload) { var response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload) }); var text = await response.text(); var data; try { data = JSON.parse(text); } catch (_err) { throw new Error('Server returned an invalid response.'); } if (!response.ok || !data.success) { throw new Error(data && data.message ? data.message : 'Could not send OTP.'); } return data; } async function sendHomeBookingOtp() { var result = await postHomeOtpJson('backend/submit_booking.php', { name: _ilHomeData.name, phone: _ilHomeData.mobile, email: _ilHomeData.email, service: _ilHomeData.service, require_otp: true }); window._ilMemPhone = _ilHomeData.mobile; window._ilOtpState = { phone: _ilHomeData.mobile, email: _ilHomeData.email, name: _ilHomeData.name, service: _ilHomeData.service }; return result; } async function resendHomeBookingOtp() { return postHomeOtpJson('backend/resend_otp.php', { phone: _ilHomeData.mobile, name: _ilHomeData.name || 'there' }); } async function homeStep2() { var nm = document.getElementById('bc-name'); var ph = document.getElementById('bc-phone'); var sv = document.getElementById('bc-service'); var em = document.getElementById('bc-email'); if (!nm || !nm.value.trim()) { nm.style.borderColor = '#ef4444'; nm.focus(); return; } if (!ph || ph.value.replace(/\D/g, '').length < 10) { ph.style.borderColor = '#ef4444'; ph.focus(); return; } if (!sv || !sv.value) { sv.style.borderColor = '#ef4444'; sv.focus(); return; } if (!em || !em.value.trim() || em.value.indexOf('@') < 0) { em.style.borderColor = '#ef4444'; em.focus(); return; } _ilHomeData = { name: nm.value.trim(), mobile: ph.value.trim(), service: sv.value, email: em.value.trim() }; var ed = document.getElementById('bc-email-disp'); var btn = document.querySelector('[onclick="homeStep2()"]'); if (btn) { btn.disabled = true; btn.textContent = 'Sending OTP...'; } setHomeOtpFeedback('bc-otp-status', '', false); setHomeOtpFeedback('bc-otp-step-status', '', false); try { var result = await sendHomeBookingOtp(); if (ed) ed.textContent = result.email || _ilHomeData.email; document.getElementById('bc1').classList.remove('active'); document.getElementById('bc2').classList.add('active'); setHomeOtpFeedback('bc-otp-step-status', 'OTP sent to your email.', false); setTimeout(function () { var o = document.getElementById('o1'); if (o) o.focus(); }, 200); } catch (err) { console.error(err); setHomeOtpFeedback('bc-otp-status', (err && err.message) ? err.message : 'Could not reach server. Please try again.', true); } finally { if (btn) { btn.disabled = false; btn.textContent = "Get Started - It's Free"; } } } function homeVerify() { var entered = ['o1', 'o2', 'o3', 'o4', 'o5', 'o6'].map(function (id) { var e = document.getElementById(id); return e ? e.value : '' }).join(''); if (entered.length < 6) return; ilVerifyOTP(entered).then(function (verification) { var svcName = (_ilHomeData.service || 'Legal Service').replace(/-/g, ' '); var amount = IL_SERVICE_PRICES[_ilHomeData.service] || 999; ilLaunchPayment({ name: _ilHomeData.name, phone: _ilHomeData.mobile, service: svcName, ref: (verification && verification.ref) || '', amount: amount, onSuccess: function (paymentId, ref) { var finalRef = ref || ((verification && verification.ref) || ''); var rd = document.getElementById('bc-ref'); if (rd) rd.textContent = finalRef; var rr = document.getElementById('bc-ref-row'); if (rr && finalRef) rr.style.display = 'block'; var nd = document.getElementById('bc-name-disp'); if (nd) nd.textContent = _ilHomeData.name.split(' ')[0]; ilSaveBooking({ ref: finalRef, name: _ilHomeData.name, phone: _ilHomeData.mobile, service: svcName, amount: amount, paymentId: paymentId }); document.getElementById('bc2').classList.remove('active'); document.getElementById('bc3').classList.add('active'); }, onFailure: function () { alert('Payment failed. Please try again or contact support.'); } }); }).catch(function () { ['o1', 'o2', 'o3', 'o4', 'o5', 'o6'].forEach(function (id) { var e = document.getElementById(id); if (e) e.style.borderColor = '#ef4444'; }); setTimeout(function () { ['o1', 'o2', 'o3', 'o4', 'o5', 'o6'].forEach(function (id) { var e = document.getElementById(id); if (e) e.style.borderColor = ''; }); }, 1400); }); } async function homeResend() { setHomeOtpFeedback('bc-otp-step-status', '', false); try { await resendHomeBookingOtp();['o1', 'o2', 'o3', 'o4', 'o5', 'o6'].forEach(function (id) { var e = document.getElementById(id); if (e) e.value = ''; }); var o = document.getElementById('o1'); if (o) o.focus(); setHomeOtpFeedback('bc-otp-step-status', 'OTP sent again. Please check your email.', false); } catch (err) { setHomeOtpFeedback('bc-otp-step-status', (err && err.message) ? err.message : 'Could not resend OTP. Please try again.', true); } }</script>
+    <script>
+    // Setup OTP input auto-advance for home page
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof ilSetupOtpInputs === 'function') {
+        ilSetupOtpInputs(['o1', 'o2', 'o3', 'o4', 'o5', 'o6']);
+      }
+    });
+    </script>
+</body>
+
+</html>
