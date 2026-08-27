@@ -24,14 +24,14 @@ This project uses a `.env` file to securely define configurations like database 
 
 ```env
 INSTALEGL_DB_HOST=localhost
-INSTALEGL_DB_NAME=u721128021_instalegl_db
-INSTALEGL_DB_USER=u721128021_instalegl
-INSTALEGL_DB_PASS=Instalegl@123
+INSTALEGL_DB_NAME=
+INSTALEGL_DB_USER=
+INSTALEGL_DB_PASS=
 
 INSTALEGL_SMS_SERVICE=brevo
 INSTALEGL_SMS_FROM=Instalegl
 INSTALEGL_BREVO_API_KEY=[YOUR_BREVO_API_KEY_HERE]
-INSTALEGL_BREVO_SENDER_NAME=Instalegl
+INSTALEGL_BREVO_SENDER_NAME=
 ```
 
 > **Warning:** Never commit your actual `.env` file! Always ensure `.env` is listed inside your project's `.gitignore` file to prevent leaking sensitive keys on GitHub.
